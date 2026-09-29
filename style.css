@@ -127,10 +127,46 @@ nav a:hover {
     text-decoration: none;
 }
 
+.tecnologias div {
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+    overflow: hidden;
+}
+
+.tecnologias h3 {
+    font-size: 24px;
+}
+
+.tecnologias img {
+    width: 160px;
+    height: 220px;
+    object-fit: contain;
+    display: block;
+}
+
 .cards div p {
     margin-top: 8px;
     font-size: 15px;
     font-weight: normal;
+}
+
+.projetos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.projetos > a {
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .sobre {
@@ -261,5 +297,14 @@ footer {
     .contato-card {
         width: 100%;
         max-width: 320px;
+    }
+
+    .tecnologias div {
+        height: 320px;
+    }
+
+    .tecnologias img {
+        width: 150px;
+        height: 210px;
     }
 }
